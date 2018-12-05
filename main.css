@@ -154,3 +154,39 @@ footer p {
     font-size: 140%;
     color: #ccc;
 }
+
+/* start about us */
+section.aboutus {
+    padding: 3% 0;
+}
+
+section.aboutus h2 {
+    text-align: center;
+    margin-bottom: 3%;
+    color: #555;
+}
+
+section.aboutus div {
+    width: 33.3333%;
+    float: left;
+}
+
+section.aboutus div img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+section.aboutus div p {
+    width: 60%;
+    margin: auto;
+    text-indent: 15px;
+    text-align: justify;
+    font-style: italic;
+    color: #333;
+}
+
+section.aboutus p::first-letter {
+    font-size: 200%;
+}
